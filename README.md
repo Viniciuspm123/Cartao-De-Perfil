@@ -34,50 +34,7 @@ Para que o projeto seja executado corretamente, a estrutura de pastas deve ser:
 └── assets/
     ├── logo.png (Favicon)
     └── foto.png (Imagem de Perfil)
-⚙️ Destaques do Código CSS
-Os principais pontos de aprendizado e eficiência no seu CSS são:
 
-1. Variáveis e Centralização Global
-O uso de :root facilita mudanças rápidas no tema, e a centralização do body garante que o cartão esteja sempre no meio da tela.
-
-CSS
-
-:root {
-    --cor-acento: #007bff; /* Cor primária */
-    /* ... outras cores ... */
-}
-body {
-    /* Centralização com Flexbox */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-2. Efeito de Interação (Hover)
-A combinação de transform e box-shadow cria uma sensação de profundidade e flutuação moderna:
-
-CSS
-
-.card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.card:hover {
-    transform: translateY(-10px); /* Move o cartão para cima */
-    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
-}
-3. Responsividade e Adaptabilidade
-O uso do object-fit: cover garante que a imagem de perfil nunca seja distorcida, e a media query assegura que o cartão se ajuste perfeitamente em dispositivos móveis:
-
-CSS
-
-.card_image {
-    object-fit: cover;
-}
-@media (max-width: 400px){
-    .card{
-        width: 90%; /* Ocupa a maior parte da tela em dispositivos menores */
-    }
-}
 🚀 Como Visualizar
 Organização: Certifique-se de que o index.html, style.css e as imagens estão organizados conforme a estrutura acima.
 
