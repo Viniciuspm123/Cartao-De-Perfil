@@ -1,7 +1,3 @@
-Seu código HTML e CSS está excelente e demonstra uma aplicação muito profissional de conceitos de design de componentes e CSS moderno. Você utilizou variáveis CSS (:root), Flexbox para alinhamento e o efeito transition para dar vida ao cartão no hover, incluindo uma boa media query para responsividade.
-
-Abaixo está o conteúdo para o arquivo README.md, que explica o projeto e destaca os pontos fortes do seu código.
-
 👤 Projeto: Cartão de Perfil (Profile Card)
 Este projeto é um componente de interface de usuário (UI) que simula um cartão de perfil ou cartão de visita digital. Foi desenvolvido com o objetivo de praticar o design de componentes isolados, a semântica HTML e técnicas avançadas de CSS, como a utilização de variáveis e a criação de efeitos de interação (hover) elegantes.
 
